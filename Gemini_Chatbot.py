@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_chat import message
 
 # Configure API (Replace with a secured method)
-api_key = 'AIzaSyDuPBbp8To3hJRVp4IXIZheAxLe4i4GcKo'  # Use a secure method to store API keys
+api_key = 'your api key'  # Use a secure method to store API keys
 genai.configure(api_key=api_key)
 
 # Define safety settings
